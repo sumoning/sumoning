@@ -1,5 +1,8 @@
 #!/usr/bin/env pyton
 #!_*_coding:utf-8_*_
 
+import MySQLdb
 
-print "this is a test"
+class Mysql(MySQLdb):
+	def __init__(self):
+		super(self).__init__()
